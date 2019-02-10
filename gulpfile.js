@@ -20,12 +20,12 @@ gulp.task('build', function () {
         )
         .pipe(autoprefixer())
         .pipe(csscomb())
-        .pipe(gulp.dest('./css'))
+        .pipe(gulp.dest('../ourwork_wagtail/ourwork_wagtail/static/css'))
         .pipe(cleancss())
         .pipe(rename({
             suffix: '.min'
         }))
-        .pipe(gulp.dest('./css'));
+        .pipe(gulp.dest('../ourwork_wagtail/ourwork_wagtail/static/css'));
 });
 
 gulp.task('default', ['build']);

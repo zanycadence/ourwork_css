@@ -1,1 +1,65 @@
+.hero-image {
+    background: url("../img/home/group.png");
+}
+
+
+
+.nav-logo {
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 14px;
+}
+
+$primary-color: #176578;
+$secondary-color: #009688;
+
+
+.btn.btn-secondary {
+    background: #009688;
+    color: #fff;
+}
+
 @import "./node_modules/spectre.css/src/spectre";
+
+body {
+    background: #f3f3f3;
+}
+
+button.join-btn {
+    margin-top: 64px;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+
+.text-tertiary {
+    color: #003c36;
+}
+
+.home-card {
+    margin-top: 30px;
+    height: 50px;
+}
+
+.home-card-txt {
+    font-size: 14px;
+    padding-top: 0px;
+}
+
+.card .card-body.home-card-txt-div {
+    padding-top: 0px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.bg-white {
+    background: #fff;
+}
