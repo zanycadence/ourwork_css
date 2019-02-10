@@ -110,3 +110,47 @@ header.navbar-rect {
 .mentor-btns .btn.btn-secondary {
     margin-left: 24px;
 }
+
+.member-profile-photo {
+    width: 195px;
+}
+
+.member-profile-banner {
+    background: rgba(19, 158, 145, 0.25);
+    padding-bottom: 0px;
+}
+
+.member-banner-title {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.member-banner-status {
+    bottom: 0px;
+}
+
+
+.course-avatar {
+    max-width: 107px;
+}
+
+.course-progress {
+    color: #009688;
+    height: 0.6rem;
+}
+
+.progress-div {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.course-list .column {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.course-list .column .btn {
+    margin-top: 33px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
